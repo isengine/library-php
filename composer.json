@@ -1,0 +1,33 @@
+{
+    "name": "isengine/library-php",
+    "type": "project",
+    "description": "Библиотека для isEngine framework на PHP",
+    "version": "1.0.0",
+    "keywords": [
+        "php",
+        "cms",
+        "framework",
+        "isengine"
+    ],
+    "license": "MIT",
+    "homepage": "https://isengine.org",
+    "support": {
+        "issues": "https://github.com/isengine/library-php/issues",
+        "source": "https://github.com/isengine/library-php"
+    },
+    "authors": [
+        {
+            "name": "Max Nikonov",
+            "email": "mail@isengine.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.6|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "is\\Library\\": "src/"
+        }
+    }
+}
